@@ -1,0 +1,23 @@
+html,
+body,
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+
+.parent {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.child {
+
+    border: 2mm ridge rgba(90, 187, 251, 0.6)
+    
+}
