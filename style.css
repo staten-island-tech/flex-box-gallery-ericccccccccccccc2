@@ -12,8 +12,9 @@ body,
 .title {
 
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     font-family: 'Righteous', cursive;
+    margin-top: 10px;
 }
 
 .parent {
@@ -22,15 +23,17 @@ body,
     justify-content: center;
     align-content: center;
 
+
 }
 
 .child {
-    width: 300px;
+    width: 400px;
     margin: 10px;
-    height: 300px;
+    height: 400px;
     text-align: center;
     border: 2mm ridge rgba(90, 187, 251, 0.6);
     align-content: center;
+    box-shadow: 5px 10px #8888;
     
 
 }
@@ -38,5 +41,17 @@ body,
 .subtitles {
 
     font-family: 'Abyssinica SIL', serif;
+    font-size: 30px;
 
+}
+
+.image {
+    margin-top: 5px;
+    height: 250px;
+    width: 250px;
+}
+
+.btext {
+    font-family: 'Inter Tight', sans-serif;
+    margin: 15px;
 }
