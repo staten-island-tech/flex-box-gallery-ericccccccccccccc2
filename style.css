@@ -6,7 +6,7 @@ body,
     margin: 0;
     box-sizing: border-box;
     font-size: 20px;
-    
+    background-color: #FFF8E8;
 }
 
 .title {
@@ -14,7 +14,13 @@ body,
     text-align: center;
     font-size: 80px;
     font-family: 'Righteous', cursive;
-    margin-top: 10px;
+    margin: auto;
+    height: auto;
+    width: auto;
+    background: rgba(300, 300, 300, 1);
+    padding: 20px;
+
+
 }
 
 .parent {
@@ -31,10 +37,10 @@ body,
     margin: 10px;
     height: 400px;
     text-align: center;
-    border: 2mm ridge rgba(90, 187, 251, 0.6);
+    border: 2mm ridge #FCD581;
     align-content: center;
-    box-shadow: 5px 10px #8888;
-    
+    box-shadow: 10px 10px #8888;
+    background: rgba(300, 300, 300, 1);
 
 }
 
@@ -42,6 +48,7 @@ body,
 
     font-family: 'Abyssinica SIL', serif;
     font-size: 30px;
+    background: rgba(300, 300, 300, 1);
 
 }
 
@@ -54,4 +61,5 @@ body,
 .btext {
     font-family: 'Inter Tight', sans-serif;
     margin: 15px;
+    background: rgba(300, 300, 300, 1);
 }
