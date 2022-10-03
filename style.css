@@ -44,6 +44,20 @@ body,
 
 }
 
+.child:hover {
+
+    width: 400px;
+    margin: 10px;
+    height: 400px;
+    text-align: center;
+    border: 2mm ridge #FCD581;
+    align-content: center;
+    box-shadow: 10px 10px #8888;
+    background: rgba(300, 300, 300, 1);
+    transform: scale(1.2);
+    
+}
+
 .subtitles {
 
     font-family: 'Abyssinica SIL', serif;
@@ -62,4 +76,8 @@ body,
     font-family: 'Inter Tight', sans-serif;
     margin: 15px;
     background: rgba(300, 300, 300, 1);
+}
+
+.button:hover {
+    transform: scale(1.5);
 }
