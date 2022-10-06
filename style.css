@@ -54,15 +54,53 @@ body,
 
 }
 
+
+
+
 .child:hover {
 
 
     transition: ease-out .15s;
-    transform: scale(1.2, 1.2);
     -webkit-transform: rotate(360deg) translateZ(0);
     
 }
 
+
+.two:hover {
+    background-color: pink;
+}
+
+.frac:hover {
+    background-color: lightskyblue;
+}
+
+.light:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.lock:hover{
+    background-color: lightsalmon;
+}
+
+.shrug:hover{
+    background-color:lightcoral;
+}
+
+.latex:hover{
+    background-color:lightcyan;
+}
+
+.e:hover{
+    background-color: aquamarine;
+}
+
+.six:hover{
+    background-color:lightslategray;
+}
+
+.nine:hover{
+    background-color: rosybrown;
+}
 
 .subtitles {
 
@@ -99,8 +137,23 @@ body,
   
 
 }
+
+.funny2 {
+    margin-top: 130px;
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Abyssinica SIL', serif;
+}
+
 .funny {
     margin-top: 130px;
     position: absolute;
-    font-size: 20px;
+    font-size: 14px;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.funny:hover {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1.2s, opacity 1.2s linear;
 }
