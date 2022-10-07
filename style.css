@@ -19,14 +19,59 @@ body,
     width: auto;
     background: rgba(300, 300, 300, 1);
     padding: 20px;
+    animation: rainbow 1s ease-in alternate infinite;
 
+
+}
+
+@keyframes rainbow {
+
+    0%:  {
+        background-color: #FF7789;
+    }
+
+    10% {
+        background-color: pink;
+    }
+
+    20% {
+        background-color: #FFBB77;
+    }
+
+    30% {
+        background-color: #f8ff77;
+    }
+
+    40% {
+        background-color:#aaff77;
+    }
+
+    50% {
+        background-color:#77FF92;
+    }
+    60% {
+        background-color: #77FFd2;
+    }
+    70%{
+        background-color: #77F3FF;
+    }
+    80% {
+        background-color: #7F77FF;
+    }
+
+    90% {
+        background-color: #BF77FF;
+    }
+    100% {
+        background-color: #FF77E5;
+
+    }
 
 }
 
 .title:hover {
     transition: ease-out .15s;
     transform: scale(1.2);
-    color: grey;
 
 
 }
@@ -157,3 +202,50 @@ body,
     opacity: 0;
     transition: visibility 0s 1.2s, opacity 1.2s linear;
 }
+
+.crab1 {
+    height:180px;
+    width: 180px;
+    margin-top: 50px;
+    margin-right: 290px;
+}
+
+.crab2 {
+    height:180px;
+    width: 180px;
+    margin-top: 50px;
+    margin-left: 290px;
+}
+
+.crab1:hover {
+    animation: wiggle 1s ease-in alternate infinite;
+}
+
+.crab2:hover {
+    animation: wiggle 1s ease-in alternate infinite;
+}
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
