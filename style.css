@@ -25,6 +25,7 @@ body,
 }
 
 
+
 .pie:hover {
     visibility: hidden;
     opacity: 0;
@@ -111,7 +112,7 @@ body,
 
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-content: horizontal;
 
 
 }
@@ -416,5 +417,153 @@ body,
     }
     @100% {
         margin-left: 0px
+    }
+  }
+
+
+  @media(min-width: 667px) and (max-width: 960px) {
+    .btext{
+        font-size: 15px;
+    }
+    .child{
+        width: 300px;
+        height: 300px;
+    }
+    .image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .title{
+        font-size: 50px;
+        height: 100px;
+        padding: 10px;
+    }
+    .pie{
+        height:150px;
+        width: 300px;
+    }
+    .funny{
+        width: 150px;
+        margiN-top: 100px;
+    }
+    .crab1{
+        margin-right: 5px;
+        width: 130px;
+        height: 130px;
+    }
+    .crab2{
+        margin-right: 5px;
+        width: 130px;
+        height: 130px;
+    }
+    .piewow {
+        width: 100px;
+        height: 85px;
+    }
+    .text {
+        font-size: 20px;
+    }
+  }
+
+  @media(min-width: 300px) and (max-width: 667px) {
+    .btext{
+        font-size: 8px;
+        margin: 0px;
+    }
+    .child{
+        width: 130px;
+        height: 130px;
+    }
+    .image {
+        width: 70px;
+        height: 70px;
+    }
+    .subtitles {
+        font-size: 15px;
+    }
+    .title{
+        font-size: 25px;
+        height: 50px;
+        padding: 5px;
+    }
+    .pie{
+        height:120px;
+        width: 200px;
+    }
+    .funny{
+        width: 100px;
+        margiN-top: 90px;
+        font-size: 9px;
+    }
+    .crab1{
+        margin-top: 60px;
+        margin-right: 0px;
+        width: 70px;
+        height: 70px;
+    }
+    .crab2{
+        margin-top: 60px;
+        margin-left: 150px;
+        width: 70px;
+        height: 70px;
+    }
+    .piewow {
+        width: 50px;
+        height: 40px;
+    }
+    .text {
+        font-size: 15px;
+    }
+  }
+  
+  @media(min-width: 0px) and (max-width: 300px) {
+    .btext{
+        font-size: 8px;
+        margin: 0px;
+    }
+    .child{
+        width: 180px;
+        height: 180px;
+    }
+    .image {
+        width: 120px;
+        height: 120px;
+    }
+    .subtitles {
+        font-size: 5px;
+    }
+    .title{
+        font-size: 25px;
+        height: 50px;
+        padding: 5px;
+    }
+    .pie{
+        height:120px;
+        width: 200px;
+    }
+    .funny{
+        width: 100px;
+        margiN-top: 90px;
+        font-size: 9px;
+    }
+    .crab1{
+        margin-top: 60px;
+        margin-right: 0px;
+        width: 70px;
+        height: 70px;
+    }
+    .crab2{
+        margin-top: 60px;
+        margin-left: 150px;
+        width: 70px;
+        height: 70px;
+    }
+    .piewow {
+        width: 50px;
+        height: 40px;
+    }
+    .text {
+        font-size: 15px;
     }
   }
