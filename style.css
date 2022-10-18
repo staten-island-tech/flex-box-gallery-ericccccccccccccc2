@@ -472,15 +472,17 @@ body,
         margin: 0px;
     }
     .child{
-        width: 130px;
-        height: 130px;
+        width: 135px;
+        height: 135px;
     }
     .image {
         width: 70px;
         height: 70px;
+        margin-top: 2px;
+        margin-bottom: 2px;
     }
     .subtitles {
-        font-size: 15px;
+        font-size: 12px;
     }
     .title{
         font-size: 25px;
